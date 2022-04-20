@@ -10,8 +10,8 @@
     "lint:css": "stylelint src",
     "test": "vue-cli-service test:unit --maxWorkers=1",
     "test-ci": "vue-cli-service test:unit --reporters=default --reporters=jest-junit --maxWorkers=1",
-    "docs": "vue-cli-service styleguidist server",
-    "docs:build": "vue-cli-service styleguidist build"
+    "docs": "vue-cli-service styleguidist",
+    "docs:build": "vue-cli-service styleguidist:build"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
